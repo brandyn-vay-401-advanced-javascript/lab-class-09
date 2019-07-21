@@ -19,11 +19,40 @@ router.get('/api/v1/:model/schema', (request, response) => {
   response.status(200).json(request.model.jsonSchema());
 });
 
-
+/**
+ * This function comment is parsed by doctrine
+ * @route GET /api/v1/:model
+ * @returns {object} 200 - An object of user info
+ * @returns {Error}  default - Unexpected error
+ */
 router.get('/api/v1/:model', handleGetAll);
+/**
+ * This function comment is parsed by doctrine
+ * @route POST /api/v1/:model
+ * @returns {object} 200 - An object of user info
+ * @returns {Error}  default - Unexpected error
+ */
 router.post('/api/v1/:model', handlePost);
+/**
+ * This function comment is parsed by doctrine
+ * @route GET /api/v1/:model/:id
+ * @returns {object} 200 - An object of user info
+ * @returns {Error}  default - Unexpected error
+ */
 router.get('/api/v1/:model/:id', handleGetOne);
+/**
+ * This function comment is parsed by doctrine
+ * @route PUT /api/v1/:model/:id
+ * @returns {object} 200 - An object of user info
+ * @returns {Error}  default - Unexpected error
+ */
 router.put('/api/v1/:model/:id', handlePut);
+/**
+ * This function comment is parsed by doctrine
+ * @route DELETE /api/v1/:model/:id
+ * @returns {object} 200 - An object of user info
+ * @returns {Error}  default - Unexpected error
+ */
 router.delete('/api/v1/:model/:id', handleDelete);
 
 // Route Handlers
