@@ -10,7 +10,7 @@ let options = {
       version: '1.0.1',
     },
     host: 'localhost:3000',
-    basePath: '',
+    basePath: '/api-docs',
     produces: [
       'application/json',
     ],
