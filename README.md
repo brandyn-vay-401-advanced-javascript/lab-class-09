@@ -1,36 +1,37 @@
 # LAB - 09
 
-## API Server
+## JSDocs
 
-### Author: Brandyn Vay & Adrienne
+### Author: Brandyn Vay
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [submission PR](https://github.com/brandyn-vay-401-advanced-javascript/lab-class-09)
+* [travis](https://travis-ci.com/brandyn-vay-401-advanced-javascript/lab-class-09)
 
 #### Documentation
-* [api docs](http://xyz.com)
 * [jsdoc](https://bv-api-server.herokuapp.com/docs/)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `v1.js`
+#### `swagger.js`
+#### `categories-model.js`
+#### `categories-schema.js`
+#### `people-model.js`
+#### `products-model.js`
+#### `products-schema.js`
+#### `todo-model.js`
+#### `todo-schema.js`
+#### `memory.js`
+#### `mongo.js`s
+#### `app.js`
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
+* `PORT` - 3000
+* `MONGODB_URI` - mongodb://localhost:27017/`database Name`
   
 #### Tests
-* How do you run tests? npm test in terminal
+* How do you run tests? Run npm test in terminal.
 
 
 #### UML

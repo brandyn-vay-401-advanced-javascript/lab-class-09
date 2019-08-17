@@ -9,8 +9,8 @@ let options = {
       title: 'Swaggertastic Docs!',
       version: '1.0.1',
     },
-    host: 'localhost:3000',
-    basePath: '/api-docs',
+    host: 'https://bv-api-server.herokuapp.com/',
+    basePath: 'api-docs',
     produces: [
       'application/json',
     ],
