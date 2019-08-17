@@ -10,7 +10,7 @@ let options = {
       version: '1.0.1',
     },
     host: 'https://bv-api-server.herokuapp.com/',
-    basePath: 'api-docs',
+    basePath: '',
     produces: [
       'application/json',
     ],
